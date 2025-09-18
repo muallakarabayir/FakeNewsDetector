@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+tensorflow
+transformers
+psycopg2-binary
+joblib
