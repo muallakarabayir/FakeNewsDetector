@@ -1,16 +1,22 @@
-# Python
-*.pyc
-__pycache__/
+# Python sanal ortamları
 venv/
-*.pkl
-*.h5
+ENV/
+env/
 
-# Jupyter
-.ipynb_checkpoints
+# Derleme dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# VS Code
+# VS Code ayarları
 .vscode/
 
-# OS
+# Sistem dosyaları
 .DS_Store
 Thumbs.db
+
+
+
+echo "venv/" >> .gitignore
+echo "backend/venv/" >> .gitignore
